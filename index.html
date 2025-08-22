@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilangrejo </title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">[PILANGREJO]</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Utama</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#stats">Statistik</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Organisasi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Tentang Kami</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-slider">
+            <div class="hero-slide active">
+                <div class="hero-content">
+                    <h2>#01 Exterior Building</h2>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <div class="hero-content">
+                    <h2>#02 American Building</h2>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <div class="hero-content">
+                    <h2>#03 Louie's Residences</h2>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <div class="hero-content">
+                    <h2>#04 Business Building</h2>
+                </div>
+            </div>
+        </div>
+        <div class="hero-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+            <span class="indicator" data-slide="3"></span>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+     
+        <section id="stats" class="stats-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="stat-item">
+                                <h3 class="counter" data-target="74">354455</h3>
+                                <p>LUAS DAERAH</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-item">
+                                <h3 class="counter" data-target="73">5173</h3>
+                                <p>JUMLAH<br>PENDUDUK</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-item">
+                                <h3 class="counter" data-target="110">1782</h3>
+                                <p>JUMLAH RUMAH</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-item">
+                                <h3 class="counter" data-target="78">11</h3>
+                                <p>JUMLAH<br>ORGANISASI</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="explore-section">
+                        <a href="https://maps.app.goo.gl/5YhdGCwwcXC5GxEo9" class="btn btn-outline-dark">Pelajari Lebih Lanjut</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Organisasi</h2>
+                    <div class="service-tabs">
+                        <div class="tab-buttons">
+                            <button class="tab-btn active" data-tab="interior">PEMERINTAHAN DESA</button>
+                            <button class="tab-btn" data-tab="concept">MASYARAKAT</button>
+                            <button class="tab-btn" data-tab="residential">EKONOMI</button>
+                            <button class="tab-btn" data-tab="hospitality">KEAMANAN</button>
+                            <button class="tab-btn" data-tab="hopitality">KESEHATAN</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="interior">
+                            <h3>Pemerintah Desa</h3>
+                            <p>Dipimpin oleh Kepala Desa, bersama Perangkat Desa dan BPD (Badan Permusyawaratan Desa), yang berperan sebagai penggerak utama kebijakan dan arah pembangunan desa.</p>
+                            <a href="#" class="btn btn-dark">Pelajari Lebih Lanjut</a>
+                        </div>
+                        <div class="tab-pane" id="concept">
+                            <h3>Masyarakat</h3>
+                                <p>Kekuatan desa terletak pada warganya:</p>
+                                <ul>
+                                <li><b>PKK</b>: Pemberdayaan keluarga menuju kesejahteraan.</li>
+                                <li><b>Karang Taruna</b>: Ruang kreativitas dan kepedulian generasi muda.</li>
+                                <li><b>LPMD (Lembaga Pemberdayaan Masyarakat Desa)</b>: Wadah aspirasi dan penggerak pembangunan berbasis masyarakat.</li>
+                                <li><b>LKU (Lembaga Kemaslahatan Umar)</b>: Menjaga nilai kemaslahatan dan kebersamaan dalam kehidupan desa.</li>
+                            </ul>
+                        <a href="#" class="btn btn-dark">Pelajari Lebih Lanjut</a>
+                        </div>
+
+                        <div class="tab-pane" id="residential">
+                            <h3>Ekonomi</h3>
+                            <p>Pembangunan ekonomi menjadi kunci kesejahteraan:</p>
+                                    <ul>
+                                <li><b>BUMDes (Badan Usaha Milik Desa)</b>: Motor penggerak ekonomi lokal dan usaha produktif.</li>
+                                <li><b>Gapoktan (Gabungan Kelompok Tani)</b>: Pusat kolaborasi petani untuk meningkatkan hasil dan kesejahteraan.</li>
+                            </ul>
+                        <a href="#" class="btn btn-dark">Pelajari Lebih Lanjut</a>
+                            </div>
+
+                        <div class="tab-pane" id="hospitality">
+                            <h3>Keamanan desa</h3>
+                            <p>Dijaga oleh Limas, yang siap menjaga ketertiban dan keamanan masyarakat agar kehidupan tetap damai dan rukun.</p>
+                            <a href="#" class="btn btn-dark">Pelajari Lebih Lanjut</a>
+                        </div>
+                        <div class="tab-pane" id="hopitality">
+                            <h3>Kesehatan</h3>
+                            <p>Kesehatan adalah pondasi kehidupan:
+                            Posyandu hadir untuk memastikan pelayanan kesehatan ibu, anak, dan masyarakat berjalan dengan baik.
+                            🌱 Dengan sinergi semua organisasi desa, kita wujudkan desa yang mandiri, berdaya, dan sejahtera bersama.</p>
+                            <a href="#" class="btn btn-dark">Pelajari Lebih Lanjut</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Tentang Pilangrejo</h2>
+                    <p>DESA PILANGREJO YANG MERUPAKAN IBU KOTA DARI KECAMATAN WONOSALAM, KABUPATEN DEMAK DI PROVINSI JAWA TENGAH. PILANGREJO MEMILIKI KETINGGIAN 4,5 METER DI ATAS PERMUKAAN LAUT SERTA MEMPUNYAI JARAK SEKITAR 7 KILOMETER DARI PUSAT KABUPATEN DEMAK, MAKA DAERAH TERSEBUT STRATEGIS DALAM SEGI AKSESIBILITAS. DIKARENAKAN LOKASI YANG CUKUP DEKAT DENGAN PUSAT KOTA DAPAT MEMBERIKAN KEUNTUNGAN BAGI AKTIVITAS EKONOMI, DISTRIBUSI BARANG, SERTA MOBILITAS MASYARAKAT.</p>
+                </div>
+            </div>
+            <div class="row portfolio-grid">
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <div class="portfolio-card">
+                        <img src="pialngrejo6.jpg">
+                        <div class="portfolio-overlay">
+                            <h4>Residence<br>Work 01</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <div class="portfolio-card">
+                        <img src="pilangrejo7.jpg" alt="Residence Work 02">
+                        <div class="portfolio-overlay">
+                            <h4>Residence<br>Work 02</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <div class="portfolio-card">
+                        <img src="pilangrejo8.jpg" alt="Residence Work 03">
+                        <div class="portfolio-overlay">
+                            <h4>Residence<br>Work 03</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <div class="portfolio-card">
+                        <img src="pilangrejo9.jpg" alt="Residence Work 04">
+                        <div class="portfolio-overlay">
+                            <h4>Residence<br>Work 04</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <div class="portfolio-card">
+                        <img src="pilangrejo10.jpg" alt="Residence Work 05">
+                        <div class="portfolio-overlay">
+                            <h4>Residence<br>Work 05</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <div class="portfolio-card">
+                        <img src="pilangrejo11.jpg" alt="Residence Work 06">
+                        <div class="portfolio-overlay">
+                            <h4>Residence<br>Work 06</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <div class="portfolio-card">
+                        <img src="pilangrejo12.jpg" alt="Residence Work 07">
+                        <div class="portfolio-overlay">
+                            <h4>Residence<br>Work 07</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <div class="portfolio-card">
+                        <img src="pilangrejo13.jpg" alt="Residence Work 08">
+                        <div class="portfolio-overlay">
+                            <h4>Residence<br>Work 08</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+    </footer>
+
+    <!-- Quote Modal -->
+    <div class="modal fade" id="quoteModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Request a Quote</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" class="form-control" placeholder="Date" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="time" class="form-control" placeholder="Time" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
